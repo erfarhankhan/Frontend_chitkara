@@ -1,0 +1,11 @@
+/* advanced selector */
+
+/* descendent selector */
+article p strong{
+    color: aqua;
+}
+
+/* child selector */
+ul >li{
+    border: 2px solid red;
+}
