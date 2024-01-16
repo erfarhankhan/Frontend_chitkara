@@ -1,0 +1,44 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: solid 2px black;
+    background-color: aqua;
+}
+div:hover{
+    background-color: red; 
+    border-radius: 50px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+a:visited{
+    color: green;
+}
+/* ol li:nth-child(1){
+    color: RED;
+}
+ol li:nth-child(6){
+    color: RED;
+} */
+/* ol li:first-child{
+    color: green;
+}
+ol li:last-child{
+    color: green;
+} */
+/* ol li:nth-of-type(2n+3){
+    color: blue;
+} */
+/* h1:hover:before{
+    content: "this is before";
+    border: 1px solid gray;
+} */
+/* 
+h1:after{
+    content: "this is after";
+    border: 1px solid gray;
+} */
+/* h1:hover:before{
+    content: "this is before";
+    border: 1px solid gray;
+} */

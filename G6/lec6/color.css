@@ -1,0 +1,21 @@
+div:nth-child(1){
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+div:nth-child(2){
+    width: 50px;
+    height: 50px;
+    background-color: #11ee22;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+div:nth-child(3){
+    width: 50px;
+    height: 50px;
+    background-color: rgb(4, 14, 200);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}

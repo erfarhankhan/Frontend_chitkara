@@ -1,34 +1,8 @@
 
 
 h1{
-    color: red !important ;
+    color: rgb(19, 162, 114);
 }
 /* h1{
     color: rgb(19, 162, 114) !important;
 } */
-
-
-
-
-/* element selector */
-h1{
-    color: green;
-}
-
-/* class selector */
-.class{
-    color: red;
-}
-/* id selector */
-#id{
-    color: red;
-}
-
-/* Attribute selector */
-input[type="text"]{
-    background-color: aqua;
-}
-a[href="https://m.facebook.com/"]{
-    font-size: 20px;
-    color: green;
-}

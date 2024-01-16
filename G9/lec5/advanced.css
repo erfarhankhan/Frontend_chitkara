@@ -9,10 +9,13 @@ article p strong{
 ul >li{
     border: 2px solid red;
 }
-h1+p{
-   color: rgb(11, 255, 11); 
-}
 
+/* adjacent selector */
+
+h1+p{
+    font-size: 16px;
+    background-color: red;
+}
 h1~p{
-    /* border: 2px solid red;  */
+    border: 2px solid red;
 }
