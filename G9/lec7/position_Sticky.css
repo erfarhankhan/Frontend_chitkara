@@ -1,0 +1,9 @@
+div{
+    height: 40px ;
+    width: 80vw ;
+    background-color: lightcoral;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 10px;
+}
