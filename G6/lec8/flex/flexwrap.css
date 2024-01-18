@@ -1,0 +1,33 @@
+section{
+    width: 80vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    border: 2px solid gray;
+    margin: 0 auto;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-star; */
+    /* justify-content: space-between; */
+}
+/* section{
+    width: 80vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid gray;
+    margin: 0 auto;
+
+} */
+
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid gray;
+    /* display: inline-block; */
+    /* background-color: red !important; */
+    /* flex-wrap: wrap; */
+}
