@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive_Header</title>
+</head>
+<body>
+    <style>
+        nav{
+            display: flex;
+            background-color: lightblue;
+            align-items: center;
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            margin-left: 10px;
+        }
+    @media screen and (max-width:500px){
+      nav{
+        flex-direction: column;
+      }
+      ul{
+        flex-direction: column;
+        margin-left: -34px;
+      }
+    }
+
+    </style>
+    <nav>
+        <a href="">home</a>
+        <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Product</li>
+        </ul>
+        <a href="">Signup</a>
+    </nav>
+    
+</body>
+</html>
