@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+
+<body>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: 2px solid gray;
+            background-color: #d87093;
+            transition: 2s;
+            transition-property: border-radius;
+            transition-property: border-radius,background-color;
+            transition-property: all;
+            transition-duration:2s ;
+        }
+        div:hover{
+            border-radius: 50%;
+            background-color: lightgreen;
+            cursor: pointer;
+        }
+    </style>
+ <div></div>
+</body>
+</html>
