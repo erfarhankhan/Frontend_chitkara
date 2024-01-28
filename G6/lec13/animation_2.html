@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation_2</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            border-top: 10px solid lightcoral;
+            border-bottom: 10px solid lightcyan;
+            border-left: 10px solid lightsalmon;
+            border-right: 10px solid lightgray;
+            border-radius: 50%;
+            animation-name: loader;
+            animation-duration: 500ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes loader{
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <div></div>
+</body>
+</html>
