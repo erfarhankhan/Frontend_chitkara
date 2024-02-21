@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>obj funtion</title>
+</head>
+<body>
+  <button onclick="fun()">click</button>
+    <p id="id"></p>
+    <script>
+        // Create an object:
+        const person = {
+          firstName: "John",
+          lastName: "Doe",
+          id: 5566,
+          fullNames : function() {
+            return this.firstName + " " + this.lastName;
+          }
+        };
+        console.log(person);//object
+        console.log(person.firstName); //fullname
+        
+        // Display data from the object:
+      function fun() {
+        document.getElementById("id").innerHTML="click funtion"
+      }
+        </script>
+</body>
+</html>

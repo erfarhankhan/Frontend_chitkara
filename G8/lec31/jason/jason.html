@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jason</title>
+</head>
+<body>
+    
+    <h2>Jason</h2>
+    <p>
+        In JSON, keys must be strings, written with double quotes:
+        JSON
+        {"name":"John"}
+        <br><br>
+        In JavaScript, keys can be strings, numbers, or identifier names:
+
+        JavaScript
+        {name:"John"}
+    </p>
+    
+    <script>
+    // const myJSON = '{"name":"John", "age":30, "car":null}';
+    // const myObj = JSON.parse(myJSON);
+    // console.log(myObj);
+   
+
+    // here convert in string from js notaion
+    const obj = {name: "John", age: 30, city: "New York"};
+    const myJSON = JSON.stringify(obj);
+    console.log(myJSON);
+    </script>
+   
+    
+   
+
+</body>
+</html>
