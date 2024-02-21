@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hof</title>
+</head>
+<body>
+    <h1>high order funtion</h1>
+    <script>
+        function fun() {
+
+            function innerfun() {
+                console.log("innerfun");
+            }
+            return innerfun;
+
+        }
+        const f =fun();
+        console.log(f);
+        f(); 
+
+        // 2nd
+
+        function multiply2(num) {
+            return num*2;
+
+        }
+        function a(mul) {
+           const res = mul(10);
+           return res;
+        }
+        const ans = a(multiply2);
+        console.log(ans);
+    </script>
+</body>
+</html>

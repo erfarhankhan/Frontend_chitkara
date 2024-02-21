@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adv method filter</title>
+</head>
+<body>
+    <h1>Adv method filter</h1>
+    <script>
+       const isodd = (num)=> {
+        if(num%2 !==0){
+            return true;
+        }
+        return false;
+       } 
+       const arr = [1,2,3,4,5,6,7,8,9];
+       console.log(arr +" <=====first");
+       console.log(arr.filter(isodd)+"console");
+       const numodd = arr.filter(isodd);
+       console.log(numodd);
+    //    console.log(arr.filter(isodd)+" <===2nd console")
+
+
+    </script>
+</body>
+</html>
