@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback</title>
+</head>
+<body>
+    <script>
+        // function cb() {
+        //     console.log("inside cb()");
+        // }
+        // function fun(f) {
+        //     console.log("inside the fun()");
+        //     f();
+        // }
+        // fun(cb);
+       
+        // function fun(f) {
+        //     console.log("inside the fun()2nd");
+        //     f();
+        // }
+        // fun( function cb() {
+        //     console.log("inside cb()");
+        // });
+
+        function fun(f) {
+            console.log("inside the fun()3rd");
+            f();
+        }
+        fun( ()=> {
+            console.log("inside cb()");
+        });
+    </script>
+</body>
+</html>

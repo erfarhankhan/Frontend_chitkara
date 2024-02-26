@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lexical</title>
+</head>
+<body>
+    <h1>lexical</h1>
+    <button onclick=" myfunc()">click</button>
+    <script>
+        // var a= 100;
+
+        // function b() {
+        //     console.log(a);
+
+        // }
+        // console.log("====",a)
+        // b();
+    </script>
+    <script>
+        function outer() {
+            let username = "xyz";
+            // console.log("<===>",z)//
+            function inner() {
+                let z= 99999;
+                console.log("inner" , username);
+                console.log("inner",z);
+            }
+            function innerTwo() {
+                console.log("innerTwo", username);
+                console.log(z);
+            }
+            inner();
+            // innerTwo();
+        }
+        outer()
+    </script>
+    <script>
+    //     function makeFunc() {
+    //         const name = "mozila";
+    //         function displayName() {
+    //             console.log(name);
+    //         }
+    //         return displayName;
+    //     }
+    //   const  myfunc=makeFunc();
+    //   myfunc()
+    //   console.log(myfunc);
+
+    //    console.log( makeFunc());
+    //    const  myfunc = makeFunc();
+    //    myfunc();
+    </script>
+</body>
+</html>
