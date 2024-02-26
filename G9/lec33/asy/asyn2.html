@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>change my text</h1>
+    <button id="stop">click me</button>
+    <script>
+        const hi =function(){
+            console.log("hello");
+        }
+        const text =function () {
+            document.querySelector("h1").innerHTML="hello js"
+        }
+        const changetext = setTimeout(text,2000);
+        document.querySelector("#stop").addEventListener("click",function(){
+            clearTimeout(changetext)
+            console.log("stop");
+        })
+    </script>
+</body>
+</html>
