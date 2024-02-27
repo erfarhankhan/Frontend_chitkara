@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout</title>
+</head>
+<body>
+    <h1>
+        setTimeout and interval
+    </h1>
+    <script>
+      
+    //    function sayHello() {
+    //     console.log("hELLO SAY");
+    //    }
+    //    sayHello()
+    //    console.log("wait for start");
+      
+       
+        // 2nd code here 
+        // function sayHello() {
+        //     console.log("hello");
+        // }
+        
+        // // setTimeout(  sayHello, 1000);
+        // var setIntervalId= setInterval(sayHello,1000);
+        // clearTimeout(setIntervalId);
+        // console.log("wait for  start 29");
+
+        // 3rd code here //
+
+
+        // var intervalId;
+        var runCount = 0;//0
+        function sayHello() {
+        runCount++;//1 //2/ //3 6
+        if(runCount > 5){
+            console.log("hello clearTimeout ");
+            clearTimeout(intervalId);
+        }
+       console.log("hello this code ");//5
+    }
+    // console.log("clearTimeout")
+    // setInterval(sayHello,1000);
+    var intervalId = setInterval(sayHello,1000);
+    // clearTimeout(intervalId);
+    
+
+    
+    </script>
+</body>
+</html>
+
+
