@@ -18,8 +18,9 @@
             x.onreadystatechange=()=>{
                 if(x.readyState === XMLHttpRequest.DONE){
                     if(x.status === 200){
-                        console.log(x);
+                        // console.log(x);
                         console.log(x.responseText);
+                        // console.log(this.responseText);
                     }else{
                         console.log("something wrong");
                     }

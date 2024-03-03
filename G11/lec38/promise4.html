@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro4</title>
+</head>
+<body>
+    <h1>pro4</h1>
+    <script>
+        const promiseA = new Promise(function (resolve,reject) {
+            setTimeout(function() {
+                // let err = true;
+                let err = false;
+                if(!err ){
+                    resolve({username:"xyz",age:"19"})
+                }else{
+                    reject(`somthing wrong`);
+                }
+            }, 1000);
+        })
+        promiseA.then((user )=>{
+            console.log(user,"resolve");
+            return user.username
+        })
+        .then((username)=>{
+            console.log(username);
+        })
+        .catch(function(err){
+            console.log(err);
+        })
+    //     .finally(()=>{console.log("promise  resolve");
+    // })
+    </script>
+</body>
+</html>
