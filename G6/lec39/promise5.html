@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promise5</title>
+</head>
+<body>
+    <h1>promise5</h1>
+    <script>
+        //  const promise5 = new Promise(function (resolve,reject) {
+        //     setTimeout(function() {
+        //         // let err = true;
+        //         let err = false;
+        //         if(!err ){
+        //             resolve({username:"xyz",age:"19"})
+        //         }else{
+        //             reject(`somthing wrong`);
+        //         }
+        //     }, 1000);
+        // })
+
+        // async function consumePromis5(){
+        //     const response = await promise5
+        //     console.log(response); 
+        // }
+        // consumePromis5();
+    </script> 
+    
+    <script>
+         const promiseA = new Promise(function (resolve,reject) {
+            setTimeout(function() {
+                let err = true;
+                // let err = false;
+                if(!err ){
+                    resolve({username:"xyz",age:"19"})
+                }else{
+                    reject(`somthing wrong`);
+                }
+            }, 1000);
+        });
+        async function consumePromisZ(){ 
+             try {
+                const response = await promiseA
+                console.log(response,"response with resolve"); 
+             } catch (error) {
+                console.log(error);
+             }
+          
+        }
+
+        consumePromisZ();
+
+
+    </script> 
+    
+  
+</body>
+</html>
