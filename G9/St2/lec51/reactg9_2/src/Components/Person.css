@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+}
+.person{
+    padding: 10px 30px ;
+    border: 2px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.16);
+    margin-top: 20px;
+    background-color: lightcoral;
+    display: inline-block;
+}

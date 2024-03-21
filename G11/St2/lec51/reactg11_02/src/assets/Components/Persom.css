@@ -1,0 +1,11 @@
+.div{
+    text-align: center;
+}
+
+.person{
+    background-color: lightsalmon;
+    display: inline-block;
+    padding: 10px 30px ;
+    margin-top: 20px;
+    
+}
