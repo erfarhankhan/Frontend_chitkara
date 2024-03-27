@@ -1,0 +1,11 @@
+import React from 'react';
+import Babel from './Babel';
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const App = () => {
+  return /*#__PURE__*/_jsxs("div", {
+    children: [/*#__PURE__*/_jsx(Babel, {}), /*#__PURE__*/_jsx("h1", {
+      children: "hello ract js"
+    })]
+  });
+};
+export default App;
